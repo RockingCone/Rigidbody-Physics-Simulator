@@ -1,4 +1,6 @@
-#pragma once
+#ifndef ENTITY_CPP
+#define ENTITY_CPP
+
 #include "entity.h"
 
 Entity::Entity()
@@ -26,3 +28,5 @@ void Entity::UpdatePosition(Vector3 Acceleration)
     velocity += Acceleration;
     transform.position += velocity;
 }
+
+#endif

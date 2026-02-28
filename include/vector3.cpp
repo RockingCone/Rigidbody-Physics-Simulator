@@ -1,4 +1,6 @@
-#pragma once
+#ifndef VECTOR3_CPP
+#define VECTOR3_CPP
+
 #include "vector3.h"
 
 Vector3::Vector3()
@@ -19,3 +21,5 @@ Vector3 Vector3::operator+=(const Vector3 &v)
     z += v.z;
     return *this;
 }
+
+#endif

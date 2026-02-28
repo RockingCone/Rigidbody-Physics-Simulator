@@ -1,4 +1,6 @@
-#pragma once
+#ifndef QUATERNION_CPP
+#define QUATERNION_CPP
+
 #include "quaternion.h"
 #include <cmath>
 
@@ -59,3 +61,5 @@ Quaternion Quaternion::operator=(const Quaternion &q)
     k = q.k;
     return *this;
 }
+
+#endif

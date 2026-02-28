@@ -1,4 +1,6 @@
-#pragma once
+#ifndef ENTITY_H
+#define ENTITY_H
+
 #include "transform.cpp"
 
 class Entity
@@ -19,3 +21,5 @@ class Entity
     protected:
 
 };
+
+#endif

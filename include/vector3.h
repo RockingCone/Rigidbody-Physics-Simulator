@@ -1,4 +1,5 @@
-#pragma once
+#ifndef VECTOR3_H
+#define VECTOR3_H
 
 struct Vector3
 {
@@ -12,3 +13,5 @@ struct Vector3
     long y;
     long z;
 };
+
+#endif

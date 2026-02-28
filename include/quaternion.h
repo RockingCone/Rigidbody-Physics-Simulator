@@ -1,4 +1,5 @@
-#pragma once
+#ifndef QUATERNION_H
+#define QUATERNION_H
 
 class Quaternion
 {
@@ -23,3 +24,5 @@ class Quaternion
     protected:
 
 };
+
+#endif

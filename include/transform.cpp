@@ -1,4 +1,6 @@
-#pragma once
+#ifndef TRANSFORM_CPP
+#define TRANSFORM_CPP
+
 #include "transform.h"
 
 Transform::Transform()
@@ -22,3 +24,5 @@ Transform::Transform(Vector3 Position, Quaternion Rotation)
     position = Position;
     rotation = Rotation;
 }
+
+#endif

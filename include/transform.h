@@ -1,4 +1,6 @@
-#pragma once
+#ifndef TRANSFORM_H
+#define TRANSFORM_H
+
 #include "vector3.cpp"
 #include "quaternion.cpp"
 
@@ -17,3 +19,5 @@ class Transform
     protected:
 
 };
+
+#endif TRANSFORM_H
