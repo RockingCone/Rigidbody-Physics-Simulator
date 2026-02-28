@@ -50,7 +50,7 @@ class Quaternion {
     +void SetEuler(double, double, double, double)
 }
 
-Entity 0-- Transform
-Transform 0-- Vector3
-Transform 0-- Quaternion
+Entity o-- Transform
+Transform o-- Vector3
+Transform o-- Quaternion
 ```
