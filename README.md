@@ -24,10 +24,11 @@ class Entity {
     +Transform transform
     -Vector3 velocity
     -Shape shape
+    -double mass
 
     +Entity()
-    +Entity(Transform)
-    +Entity(Transform, Vector3)
+    +Entity(Transform, Shape, double)
+    +Entity(Transform, Vector3, Shape, double)
 
     +void UpdatePosition(Vector3)
 }
