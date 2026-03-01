@@ -11,9 +11,19 @@
 ```mermaid
 classDiagram
 
+class Shape {
+    +long radius
+    +int shape
+
+    +Shape()
+    +Shape(long)
+    +Shape(long, int)
+}
+
 class Entity {
     +Transform transform
-    +Vector3 velocity
+    -Vector3 velocity
+    -Shape shape
 
     +Entity()
     +Entity(Transform)
@@ -50,6 +60,7 @@ class Quaternion {
     +void SetEuler(double, double, double, double)
 }
 
+Entity o-- Shape
 Entity o-- Transform
 Transform o-- Vector3
 Transform o-- Quaternion
