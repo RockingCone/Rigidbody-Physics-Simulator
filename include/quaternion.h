@@ -23,6 +23,8 @@ class Quaternion
 
     protected:
 
+    private:
+    
 };
 
 #endif

@@ -12,6 +12,11 @@ struct Vector3
     long x;
     long y;
     long z;
+
+    protected:
+
+    private:
+    
 };
 
 #endif

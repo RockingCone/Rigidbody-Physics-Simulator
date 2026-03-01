@@ -14,10 +14,10 @@ class Transform
     Transform(Vector3 Position);
     Transform(Vector3 Position, Quaternion Rotation);
 
-    private:
-
     protected:
-
+    
+    private:
+    
 };
 
 #endif TRANSFORM_H

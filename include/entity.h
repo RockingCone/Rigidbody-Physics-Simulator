@@ -2,6 +2,7 @@
 #define ENTITY_H
 
 #include "transform.cpp"
+#include "shape.cpp"
 
 class Entity
 {
@@ -14,12 +15,13 @@ class Entity
     
     void UpdatePosition(Vector3 Acceleration);
     
-    private:
-    /// @brief Measured in units/tick with units being the smallest unit of distance (established by vector3) and ticks being 1/60 of a second.
-    Vector3 velocity;
-    
     protected:
-
+    
+    private:
+    /// @brief Measured in units/update with units being the smallest unit of distance (established by vector3) and updates being defined by driver script.
+    Vector3 velocity;
+    Shape shape;
+    
 };
 
 #endif
